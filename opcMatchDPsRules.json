@@ -1,0 +1,164 @@
+{
+	"Tank_":
+	[
+		{	"setDPName": "RZV"	},
+		{	"changeParent": { "_NPS_": "_RP_", "_SIKN_": "_PSP_"	}	},
+		{	"setObjectNumber": ""	},
+		{	"setDPT": { "*_PSP_*": "RZVPSP", "*_SIKN_*": "RZVPSP", "*_RP_*": "RZV"	}	}
+	],
+	"DES":
+	[
+		{	"setDPName": "DGE"	},
+		{	"setObjectNumber": ""	},
+		{	"setDPT": { "*": "DGE"	}	}
+	],
+	"PUMP":
+	[
+		{	"setDPName": "NSS"	},
+		{	"setObjectNumber": ""	},
+		{	"changeParent": { "_KP_": "_LU_" }	} ,
+		{	"setDPT": { "*": "NSS"	}	}
+	],
+	"Pump":
+	[
+		{	"setDPName": "NSS"	},
+		{	"setObjectNumber": ""	},
+		{	"changeParent": { "_KP_": "_LU_" }	} ,
+		{	"setDPT": { "*": "NSS"	}	}
+	],
+	"NA":
+	[
+		{	"changeParent": { "JAL_PSP__": "JAL_MNS__"} 	},
+		{	"setDPName": "MNA"	},
+		{	"setObjectNumber": ""	},
+		{	"changeParent": { "_NPS_": "_MNS_" }	} ,
+		{	"setDPT": { "*_PSP_*": "NSS", "*_??S_*": "MNA"	}	}
+	],
+	"MNA":
+	[
+		{	"setDPName": "MNA"	},
+		{	"setObjectNumber": ""	},
+		{	"changeParent": { "_NPS_": "_MNS_","_SIKN_": "_PSP_" }	} ,
+		{	"setDPT": { "*": "MNA"	}	} 
+	],
+	"PNA":
+	[
+		{	"setDPName": "PNA"	},
+		{	"setObjectNumber": ""	},
+		{	"changeParent": { "_NPS_": "_PNS_", "_SIKN_": "_PSP_" }	} ,
+		{	"setDPT": { "*": "MNA"	}	} 
+	],
+	
+	"BKNA":
+	[
+		{	"setDPName": "MNA"	},
+		{	"setObjectNumber": ""	},
+		{	"setDPT": { "*": "MNA"	}	} 
+	],
+	"SW":
+	[
+		{	"saveOriginalParent": ""	},
+		{	"setDPName": "ZDV"	},
+		{	"setObjectNumber": ""	},
+		{	"changeParent": { "_KP_": "_LU_" }	} ,
+		{	"setDPT": {"*": "ZDV"	}	} 
+	],
+	"Line_":
+	[
+		{	"setDPName": "LIPN"	},
+		{	"setObjectNumber": ""	},
+		{	"setDPT": { "*": "LIPN"	}	} 
+	],
+	"LineCon":
+	[
+		{	"setDPName": "LR"	},
+		{	"setObjectNumber": ""	},
+		{	"setDPT": { "*": "LR"	}	} 
+	],
+	"DPS":
+	[
+		{	"setDPName": "DPS"	},
+		{	"setObjectNumber": ""	},
+		{	"changeParent": {	"_KP_": "_LU_"	}	},
+		{	"setDPT": { "*": "DPS"	}	} 
+	],
+	"SKZ":
+	[
+		{	"setDPName": "SKZ"	},
+		{	"setObjectNumber": ""	},
+		{	"setDPT": { "*": "SKZ"	}	} 
+	],
+	"KPPS_":
+	[
+		{	"setDPName": "KPPS"	},
+		{	"setObjectNumber": ""	},
+		{	"changeParent": { "_KP_": "_LU_"	}	},
+		{	"setDPT": { "*": "KPPS"	}	} 
+	],
+	"ESU":
+	[
+		{	"setDPName": "TEMK"	},
+		{	"setObjectNumber": ""	},
+		{	"changeParent": { "_KP_": "_LU_"	}	} ,
+		{	"setDPT": { "*": "TEMK"	}	} 
+	],
+	"WIN":
+	[
+		{	"setDPName": "TKSI"	},
+		{	"setObjectNumber": ""	},
+		{	"changeParent": { "_KP_": "_LU_"	}	} ,
+		{	"setDPT": { "*": "TKSI"	}	} 
+	],
+	"SAR":
+	[
+		{	"setDPName": "SARD"	},
+		{	"setObjectNumber": ""	},
+		{	"setDPT": { "*": "SARD"	}	} 
+	],
+	"RD_":
+	[
+		{	"setDPName": "RGR"	},
+		{	"setObjectNumber": ""	},
+		{	"setDPT": { "*": "RGR"	}	} 
+	],
+	"BKN":
+	[
+		{	"setDPName": "BIK" } ,
+		{	"setObjectNumber": ""	},
+		{	"setDPT": { "*": "BIK"	}	} 
+	],
+	"Filtr":
+	[
+		{	"setDPName": "FGU"	},
+		{	"setObjectNumber": ""	},
+		{	"setDPT": { "*": "FGU"	}	} 
+	],
+	"ZRU":
+	[
+		{	"setDPName": "ZRU"	},
+		{	"setObjectNumber": ""	},
+		{	"setDPT": { "*": "ZRU"	}	} 
+	],
+	"AlmPLK":
+	[
+		{	"setDPName": "PLK"	},
+		{	"setObjectNumber": ""	},
+		{	"setDPT": { "*": "PLK"	}	} 
+	],
+	"KPPSOD":
+	[
+	],
+	"PK1":
+	[
+	],
+	"RVS":
+	[
+	],
+    "IB":
+    [
+		{	"setDPName": "IV"	},
+		{	"setObjectNumber": ""	},
+        {	"changeParent": { "_KP_": "_LU_" }	} ,
+		{	"setDPT": { "*": "IV"	}	} 
+    ]
+}
